@@ -22,11 +22,8 @@ default
 {
     attach(key user){
         if(user != NULL_KEY){
-            llSetScale(scale);
             owner = llGetOwner();
             compare = checkav();
-            llSetScale(small);
-            llSetAlpha(0, ALL_SIDES);
             llSetTimerEvent(1);
         }
     }
