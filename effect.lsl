@@ -1,8 +1,6 @@
 list compare;
 list compare1;
 key owner;
-vector scale = <3, 6.3, 3>;
-vector small = <0, 0, 0>;
 list checkav()
 {
     list AttachedNames;
